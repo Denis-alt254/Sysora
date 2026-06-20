@@ -1,0 +1,26 @@
+const express = require('express')
+const architectureRoutes = require('./architectureRoutes')
+const authRoutes = require('./authRoutes')
+const collaborationRoutes = require('./collaborationRoutes')
+const costRoutes = require('./costRoutes')
+const diagramRoutes = require('./diagramRoutes')
+const exportRoutes = require('./exportRoutes')
+const healthRoutes = require('./healthRoutes')
+const projectRoutes = require('./projectRoutes')
+const recommendationRoutes = require('./recommendationRoutes')
+const validationRoutes = require('./validationRoutes')
+
+const router = express.Router()
+
+router.use('/health', healthRoutes)
+router.use('/api/auth', authRoutes)
+router.use('/api/projects', projectRoutes)
+router.use('/api/architectures', architectureRoutes)
+router.use('/api/diagrams', diagramRoutes)
+router.use('/api/recommendations', recommendationRoutes)
+router.use('/api/validation', validationRoutes)
+router.use('/api/costs', costRoutes)
+router.use('/api/exports', exportRoutes)
+router.use('/api/collaboration', collaborationRoutes)
+
+module.exports = router

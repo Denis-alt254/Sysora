@@ -1,0 +1,1911 @@
+{
+  "users": [
+    {
+      "id": "usr_mqm9rf0c_6uhczd",
+      "name": "Ravi",
+      "email": "examle@gmail.com",
+      "passwordHash": "$2b$10$F8nyz7lcjKVk3fcMvBcXWOMi4ISgBa8MA5UB6OEA7pH0eOqLgwHF6",
+      "role": "member",
+      "createdAt": "2026-06-20T11:23:22.428Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_mqmdr1nz_iji316",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T13:15:03.599Z",
+      "updatedAt": "2026-06-20T13:15:03.599Z"
+    },
+    {
+      "id": "prj_mqmdp13d_3ew0na",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T13:13:29.545Z",
+      "updatedAt": "2026-06-20T13:13:29.545Z"
+    },
+    {
+      "id": "prj_mqmdj9a8_zugrl1",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T13:09:00.224Z",
+      "updatedAt": "2026-06-20T13:09:00.224Z"
+    },
+    {
+      "id": "prj_mqmd9eo9_gi8ftm",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T13:01:20.649Z",
+      "updatedAt": "2026-06-20T13:01:20.649Z"
+    },
+    {
+      "id": "prj_mqmd5y4n_dznso6",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T12:58:39.239Z",
+      "updatedAt": "2026-06-20T12:58:39.239Z"
+    },
+    {
+      "id": "prj_mqmd0hvx_kb4otw",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T12:54:24.909Z",
+      "updatedAt": "2026-06-20T12:54:24.909Z"
+    },
+    {
+      "id": "prj_mqmcz1z9_najk98",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T12:53:17.637Z",
+      "updatedAt": "2026-06-20T12:53:17.637Z"
+    },
+    {
+      "id": "prj_mqmcy1xq_2spl0b",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T12:52:30.926Z",
+      "updatedAt": "2026-06-20T12:52:30.926Z"
+    },
+    {
+      "id": "prj_mqmcr1r5_yzrl7v",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T12:47:04.097Z",
+      "updatedAt": "2026-06-20T12:47:04.097Z"
+    },
+    {
+      "id": "prj_mqm9sbu6_v4914d",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T11:24:04.974Z",
+      "updatedAt": "2026-06-20T11:24:04.974Z"
+    },
+    {
+      "id": "prj_mqm9rngf_kw6iz2",
+      "userId": "demo-user",
+      "name": "A scalable food delivery platform with live cour",
+      "description": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "status": "draft",
+      "createdAt": "2026-06-20T11:23:33.375Z",
+      "updatedAt": "2026-06-20T11:23:33.375Z"
+    }
+  ],
+  "architectures": [
+    {
+      "id": "arc_mqmdr1o0_ldxz2n",
+      "projectId": "prj_mqmdr1nz_iji316",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T13:15:03.600Z"
+    },
+    {
+      "id": "arc_mqmdp13f_8fm3kb",
+      "projectId": "prj_mqmdp13d_3ew0na",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T13:13:29.547Z"
+    },
+    {
+      "id": "arc_mqmdj9a9_y4z97b",
+      "projectId": "prj_mqmdj9a8_zugrl1",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T13:09:00.225Z"
+    },
+    {
+      "id": "arc_mqmd9eoa_twlrmt",
+      "projectId": "prj_mqmd9eo9_gi8ftm",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T13:01:20.650Z"
+    },
+    {
+      "id": "arc_mqmd5y4o_0zud5m",
+      "projectId": "prj_mqmd5y4n_dznso6",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T12:58:39.240Z"
+    },
+    {
+      "id": "arc_mqmd0hvy_pd2iyq",
+      "projectId": "prj_mqmd0hvx_kb4otw",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T12:54:24.910Z"
+    },
+    {
+      "id": "arc_mqmcz1zb_mo34im",
+      "projectId": "prj_mqmcz1z9_najk98",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T12:53:17.639Z"
+    },
+    {
+      "id": "arc_mqmcy1xr_437czq",
+      "projectId": "prj_mqmcy1xq_2spl0b",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T12:52:30.927Z"
+    },
+    {
+      "id": "arc_mqmcr1r6_3d8p1s",
+      "projectId": "prj_mqmcr1r5_yzrl7v",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T12:47:04.098Z"
+    },
+    {
+      "id": "arc_mqm9sbu7_sqmdzi",
+      "projectId": "prj_mqm9sbu6_v4914d",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T11:24:04.975Z"
+    },
+    {
+      "id": "arc_mqm9rngh_bei81g",
+      "projectId": "prj_mqm9rngf_kw6iz2",
+      "prompt": "A scalable food delivery platform with live courier tracking, restaurant dashboards, customer apps, payments, analytics, and document exports.",
+      "architecture": {
+        "name": "A scalable food delivery platform with live courier tracking, restaurant",
+        "summary": "A service-oriented modular monolith architecture for a early-stage product, optimized for quick delivery while keeping clear upgrade paths for scale.",
+        "pattern": "Service-oriented modular monolith",
+        "scale": "Early-stage",
+        "stack": {
+          "frontend": "React workspace with diagram canvas",
+          "backend": "Node.js API with service modules",
+          "database": "PostgreSQL for relational product data",
+          "cache": "Redis for sessions, queues, and hot diagram state",
+          "infrastructure": "Containerized deployment behind an API gateway"
+        },
+        "services": [
+          "Authentication and user profiles",
+          "Project and architecture management",
+          "AI requirement analysis and architecture generation",
+          "Diagram persistence and export workflow",
+          "Realtime events over WebSockets",
+          "Payments, billing, and webhook processing",
+          "Media upload, storage, and delivery",
+          "Usage analytics and reporting"
+        ],
+        "risks": [
+          "AI output should be reviewed before implementation decisions are finalized.",
+          "Diagram state can become complex; versioned architecture snapshots are important.",
+          "Cost estimation needs provider-specific pricing before production use."
+        ],
+        "recommendations": [
+          "Start with a modular monolith and extract services once team or traffic pressure is real.",
+          "Keep generated architectures as structured JSON so diagrams, docs, and exports share one source.",
+          "Add audit logs early for architecture changes and export events."
+        ],
+        "monthlyEstimate": "$45 - $160",
+        "nodes": [
+          {
+            "id": "client",
+            "label": "Web App",
+            "type": "Frontend",
+            "x": 6,
+            "y": 42
+          },
+          {
+            "id": "gateway",
+            "label": "API Gateway",
+            "type": "Edge",
+            "x": 27,
+            "y": 42
+          },
+          {
+            "id": "api",
+            "label": "Core API",
+            "type": "Backend",
+            "x": 48,
+            "y": 42
+          },
+          {
+            "id": "db",
+            "label": "PostgreSQL",
+            "type": "Database",
+            "x": 70,
+            "y": 26
+          },
+          {
+            "id": "cache",
+            "label": "Redis Cache",
+            "type": "Cache",
+            "x": 70,
+            "y": 58
+          },
+          {
+            "id": "ai",
+            "label": "AI Orchestrator",
+            "type": "AI",
+            "x": 48,
+            "y": 75
+          },
+          {
+            "id": "realtime",
+            "label": "Realtime Service",
+            "type": "WebSocket",
+            "x": 27,
+            "y": 72
+          },
+          {
+            "id": "payments",
+            "label": "Payment Provider",
+            "type": "External",
+            "x": 88,
+            "y": 42
+          },
+          {
+            "id": "storage",
+            "label": "Object Storage",
+            "type": "Storage",
+            "x": 88,
+            "y": 72
+          },
+          {
+            "id": "analytics",
+            "label": "Analytics Pipeline",
+            "type": "Data",
+            "x": 88,
+            "y": 14
+          }
+        ],
+        "edges": [
+          {
+            "from": "client",
+            "to": "gateway"
+          },
+          {
+            "from": "gateway",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "db"
+          },
+          {
+            "from": "api",
+            "to": "cache"
+          },
+          {
+            "from": "api",
+            "to": "ai"
+          },
+          {
+            "from": "client",
+            "to": "realtime"
+          },
+          {
+            "from": "realtime",
+            "to": "cache"
+          },
+          {
+            "from": "realtime",
+            "to": "api"
+          },
+          {
+            "from": "api",
+            "to": "payments"
+          },
+          {
+            "from": "api",
+            "to": "storage"
+          },
+          {
+            "from": "api",
+            "to": "analytics"
+          },
+          {
+            "from": "analytics",
+            "to": "db"
+          }
+        ]
+      },
+      "version": 1,
+      "createdAt": "2026-06-20T11:23:33.377Z"
+    }
+  ],
+  "exports": [],
+  "diagrams": [],
+  "comments": []
+}
