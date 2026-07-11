@@ -1,10 +1,9 @@
 
-function Button() {
+function Button({children}) {
     return(
         <>
-            <p>Button</p>
-            <div className="size-12 flex dark:text-white-400">
-                Button
+            <div className="button">
+                <main>{children}</main>
             </div>
         </>
     )
