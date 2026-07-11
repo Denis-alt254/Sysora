@@ -1,8 +1,0 @@
-export { default as AuthPage } from './AuthPage'
-export { default as DashboardPage } from './DashboardPage'
-export { default as WorkspacePage } from './WorkspacePage'
-export { default as DiagramPage } from './DiagramPage'
-export { default as AssistantPage } from './AssistantPage'
-export { default as ValidationPage } from './ValidationPage'
-export { default as CostsPage } from './CostsPage'
-export { default as ExportPage } from './ExportPage'
