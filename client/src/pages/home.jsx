@@ -3,6 +3,7 @@ import Button from "../components/button"
 import { useState } from "react"
 import { useEffect } from "react";
 import Card from "../components/card";
+import Security from "../components/security";
 
 function Home(){
 
@@ -174,6 +175,73 @@ function Home(){
                         </div>
                     </div>
                 </Card>
+            </div>
+            <div className="p-3 m-3 grid grid-cols-2 gap-20">
+                <div className="flex flex-col gap-7">
+                    <h2>What customers say</h2>
+                    <Card>
+                        <p>"Sysora transformed our migration. We saved 400+ engineering hours in documentation alone."</p>
+                        <div className="flex flex-row gap-7">
+                            <img className="profile" src="../cloudscale.jpg" alt="" />
+                            <div className="flex flex-col">
+                                <p className="font-bold">Alex Rivers</p>
+                                <p>CTO, CloudScale</p>
+                            </div>
+                        </div>
+                    </Card>
+                    <Card>
+                        <p>"The AI Code Lab is a game changer for our junior DevOps team. It's like having a senior engineer on every PR."</p>
+                        <div className="flex flex-row gap-7">
+                            <img className="profile" src="../nexaflow.jpg" alt="" />
+                            <div className="flex flex-col">
+                                <p className="font-bold">Elena Wu</p>
+                                <p>Head of Platform, Nexaflow</p>
+                            </div>
+                        </div>
+                    </Card>
+                </div>
+                <div className="flex flex-col gap-7">
+                    <h2>Security & Compliance</h2>
+                    <p>We meet the highest standards for 
+                        enterprise security, ensuring your data 
+                        and infrastructure stay protected.
+                    </p>
+                    <div className="grid grid-cols-2 gap-5">
+                        <Security>
+                            <img className="security-icons" src="../certified.png" alt="" />
+                            <h3>SOC 2 Type II</h3>
+                            <p>CERTIFIED</p>
+                        </Security>
+                        <Security>
+                            <img className="security-icons" src="../compliant.png" alt="" />
+                            <h3>GDPR Ready</h3>
+                            <p>COMPLIANT</p>
+                        </Security>
+                        <Security>
+                            <img className="security-icons" src="../audited.png" alt="" />
+                            <h3>ISO 27001</h3>
+                            <p>AUDITED</p>
+                        </Security>
+                        <Security>
+                            <img className="security-icons" src="../eligible.png" alt="" />
+                            <h3>HIPAA</h3>
+                            <p>ELIGIBLE</p>
+                        </Security>
+                    </div>
+                    <div >
+                        <button className="security-btn">Download Security Pack</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className="p-3 m-3 rounded-2xl h-70 text-center items-center flex flex-col gap-10 bg-[#7d2bfb]">
+                    <h1 className="text-white font-bold">Ready to streamline your cloud?</h1>
+                    <span className="text-[#ffffffe0]">Join 50,000+ engineers building the future on Sysora. Start your 14-day free trial today.</span>
+                    <div className="flex flex-row gap-7 items-center pl-3 pr-3 w-150">
+                        <Button>Get Started Now</Button>
+                        <Button>Talk to Sales</Button>
+                    </div>
+                </div>
             </div>
         </>
     )
