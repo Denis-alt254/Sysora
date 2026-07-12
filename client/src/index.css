@@ -6,10 +6,15 @@ p{
 a{
   color: rgb(138, 57, 214);
 }
+h1{
+  font-size: 36px;
+}
+h2{
+  font-weight: bold;
+  font-size: 2em;
+}
 h3{
   font-weight: bold;
-  margin-top: 1em;
-  margin-bottom: 1em;
 }
 
 .navbar{
@@ -56,10 +61,24 @@ h3{
 }
 .button{
   width: 100%;
+  height: 2.5em;
+  line-height: 2.5em;
   background-color: blueviolet;
   color: white;
   border-radius: 10px;
-  padding: 2px 10px 2px 10px;
+  padding: 0 20px;
+  text-align: center;
+}
+.security-btn{
+  width: 100%;
+  height: 2.5em;
+  line-height: 2.5em;
+  background-color: rgb(9, 8, 10);
+  color: white;
+  border-radius: 10px;
+  padding: 0 20px;
+  text-align: center;
+  cursor: pointer;
 }
 .tour-divs{
   padding: 1em;
@@ -83,4 +102,53 @@ h3{
   display: flex;
   flex-direction: row;
   gap: 5px;
+}
+.profile{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.security{
+  align-items: center;
+}
+.security-icons{
+  justify-content: center;
+  align-items: center;
+  width: 2.5em;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: rgb(206, 206, 206);
+  margin: 0 auto;
+}
+.footer-parent-containers{
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+.footer-children-containers{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-right: 2em;
+  margin-right: 3em;
+}
+.footer-grand-child{
+  display: flex;
+  flex-direction: column;
+}
+.socials{
+  border-radius: 3px;
+  padding: 4px;
+}
+.socials-images{
+  width: 2em;
+  height: 2em;
+  background-color: white;
+  border-color: rgb(148, 89, 204);
+  padding: 4px;
+}
+.socials-images:hover{
+  background-color: rgb(140, 78, 197);
+  color: white;
 }
