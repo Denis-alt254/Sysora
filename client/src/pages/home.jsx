@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import Button from "../components/button"
 import { useState } from "react"
 import { useEffect } from "react";
+import Card from "../components/card";
 
 function Home(){
 
@@ -62,6 +63,117 @@ function Home(){
                         <p>Deploy to AWS, Azure, or GCP with automated security gates.</p>
                     </div>
                 </div>
+            </div>
+            <div className="p-3 m-3 mt-20 mb-10">
+                <h2 className="font-bold text-2xl mb-3 text-center">Core Capabilities</h2>
+                <p className="text-center">Everything you need to design, build, 
+                    and scale world-class cloud infrastructure 
+                    in one unified environment.
+                </p>
+            </div>
+            <div className="grid grid-cols-3 gap-10 p-3 m-3">
+                <Card>
+                    <div className="card-icons">
+                        <img src="../account-tree.png" alt="" />
+                    </div>
+                    <h3>Architecture</h3>
+                    <p>Visual diagramming tool with native cloud providers and reusable module templates.</p>
+                    <div className="card">
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>2000+ Cloud Icons</p>
+                        </div>
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Real-time Sync</p>
+                        </div>
+                    </div>
+                </Card>
+                <Card>
+                    <div className="card-icons">
+                        <img src="docs.png" alt="" />
+                    </div>
+                    <h3>Docs & Knowledge</h3>
+                    <p>Centralized living documentation that stays in sync with your actual codebase.</p>
+                    <div className="card">
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Markdown Support</p>
+                        </div>
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Automatic Versioning</p>
+                        </div>
+                    </div>
+                </Card>
+                <Card>
+                    <div className="card-icons">
+                        <img src="../project.png" alt="" />
+                    </div>
+                    <h3>Projects</h3>
+                    <p>Roadmaps, milestones, and resource planning integrated with cloud tasks.</p>
+                    <div className="card">
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Gantt Visualizers</p>
+                        </div>
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Resource Alerts</p>
+                        </div>
+                    </div>
+                </Card>
+                <Card>
+                    <div className="card-icons">
+                        <img src="../team.png" alt="" />
+                    </div>
+                    <h3>Team</h3>
+                    <p>RBAC-controlled workspaces and threaded reviews for all architectural changes.</p>
+                    <div className="card">
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Approval Workflows</p>
+                        </div>
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Activity Streams</p>
+                        </div>
+                    </div>
+                </Card>
+                <Card>
+                    <div className="card-icons">
+                        <img src="../code-lab.png" alt="" />
+                    </div>
+                    <h3>AI Code Lab</h3>
+                    <p>Generate Infrastructure as Code (IaC) using our secure LLM assistant.</p>
+                    <div className="card">
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Terraform/CDK Gen</p>
+                        </div>
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Security Audits</p>
+                        </div>
+                    </div>
+                </Card>
+                <Card>
+                    <div className="card-icons">
+                        <img src="../deployment.png" alt="" />
+                    </div>
+                    <h3>Deployments</h3>
+                    <p>CI/CD pipelines with automated drift detection and multi-cloud support.</p>
+                    <div className="card">
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Canary Releases</p>
+                        </div>
+                        <div className="card-checks">
+                            <img src="../tick.png" alt="" />
+                            <p>Auto-Rollback</p>
+                        </div>
+                    </div>
+                </Card>
             </div>
         </>
     )

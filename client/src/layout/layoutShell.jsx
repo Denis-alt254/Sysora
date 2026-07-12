@@ -2,7 +2,7 @@ import Navbar from "../components/nav-bar"
 
 export default function LayoutShell ({children}){
     return(
-        <div>
+        <div className="bg-gray-100">
             <header>
                 <Navbar />
             </header>
