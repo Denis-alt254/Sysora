@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export default function Footer() {
     return(
         <>
-            <div>
-                <div className="flex flex-col bg-white p-3 m-3">
+            <div className="bg-white">
+                <div className="flex flex-col p-3 m-3">
                     <div className="footer-parent-containers">
                         <div className="footer-children-containers">
                             <div className="logo">
