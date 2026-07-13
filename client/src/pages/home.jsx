@@ -4,6 +4,7 @@ import { useState } from "react"
 import { useEffect } from "react";
 import Card from "../components/card";
 import Security from "../components/security";
+import NavBar from "../components/nav-bar";
 
 function Home(){
 
@@ -16,9 +17,12 @@ function Home(){
     
     return(
         <>
+            <div>
+                <NavBar />
+            </div>
             <div className="p-3 m-3 grid grid-cols-2 gap-4">
                 <div className="hero">
-                    <div className="text-4xl font-bold mb-4">
+                    <div className="mb-4">
                         <h1>Design.Document.Ship.</h1>
                         <h1><span className="text-purple-500">All in one</span> cloud platform</h1>
                     </div>
