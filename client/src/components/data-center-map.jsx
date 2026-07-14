@@ -9,7 +9,9 @@ const dataCenters = [
   { name: "Ashburn (US-East)", coordinates: [-77.4874, 39.0438] },
   { name: "Frankfurt (EU-Central)", coordinates: [8.6821, 50.1109] },
   { name: "Singapore (AP-Southeast)", coordinates: [103.8198, 1.3521] },
-  { name: "São Paulo (SA-East)", coordinates: [-46.6333, -23.5505] }
+  { name: "São Paulo (SA-East)", coordinates: [-46.6333, -23.5505] },
+  { name: "Nairobi (KE)", coordinates: [36.8219, -1.2921] },
+  { name: "Pretoria (ZA)", coordinates: [28.1878, -25.7479] }
 ];
 
 export default function DataCenterMap() {
