@@ -183,7 +183,7 @@ const ShapeSvg = ({ shape, fillColor, strokeColor, strokeWidth, label, fontWeigh
           style={{ borderColor: stroke, backgroundColor: `${fill}22` }}
           className="flex h-20 w-32 items-center justify-center rounded-2xl border-2 p-2 text-center"
         >
-          <span className="break-words text-[11px] font-semibold text-slate-800" style={{fontWeight: fWeight, fontStyle: fStyle, textDecoration: tDecor, color: fontColor || '#111827'}}>{displayLabel}</span>
+          <span className="wrap-break-word text-[11px] font-semibold text-slate-800" style={{fontWeight: fWeight, fontStyle: fStyle, textDecoration: tDecor, color: fontColor || '#111827'}}>{displayLabel}</span>
         </div>
       );
 
@@ -194,7 +194,7 @@ const ShapeSvg = ({ shape, fillColor, strokeColor, strokeWidth, label, fontWeigh
           style={{ borderColor: stroke, backgroundColor: `${fill}22` }}
           className="flex h-20 w-32 items-center justify-center rounded-lg border-2 p-2 text-center"
         >
-          <span className="break-words text-[11px] font-semibold text-slate-800" style={{fontWeight: fWeight, fontStyle: fStyle, textDecoration: tDecor, color: fontColor || '#111827'}}>{displayLabel}</span>
+          <span className="wrap-break-word text-[11px] font-semibold text-slate-800" style={{fontWeight: fWeight, fontStyle: fStyle, textDecoration: tDecor, color: fontColor || '#111827'}}>{displayLabel}</span>
         </div>
       );
   }
@@ -222,7 +222,7 @@ export default function ShapeNode({ id, data, isConnectable, selected, onDeleteN
   };
 
   return (
-    <div className={`relative p-0 ${selected ? 'rounded-none outline outline-2 outline-violet-500' : ''}`}>
+    <div className={`relative p-0 ${selected ? 'rounded-none outline outline-violet-500' : ''}`}>
       <Handle
         type="target"
         position={Position.Left}
