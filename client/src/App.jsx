@@ -4,6 +4,7 @@ import LayoutShell from "./layout/layoutShell"
 import Dashboard from "./pages/dashboard"
 import {ReactFlowProvider} from '@xyflow/react';
 import DesignerCanvas from "./pages/design"
+import Pricing from "./pages/pricing";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/pricing" element={<Pricing />} />
         <Route path="/design" element={
           <ReactFlowProvider>
             <DesignerCanvas />
