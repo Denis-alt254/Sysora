@@ -1,4 +1,4 @@
-import Button from "./button";
+import Button from "./ui/button";
 
 export default function NavDashboard(){
     return(
@@ -11,7 +11,7 @@ export default function NavDashboard(){
                 <div className="flex flex-row gap-7 w-125 items-center justify-center">
                     <img className="icons" src="../notification.png" alt="" />
                     <img className="icons" src="../apps.png" alt="" />
-                    <Button>Deploy</Button>
+                    <Button className="bg-[#630ed4] px-6 py-2.5 rounded-xl text-white text-[14px] hover:bg-[#7c3aed] transition-all active:scale-95 shadow-lg shadow-[#630ed4]/20">Deploy</Button>
                     <div className="flex flex-row gap-4 w-2xl pr-0">
                         <div className="flex flex-col">
                             <h3>Alex Chen</h3>

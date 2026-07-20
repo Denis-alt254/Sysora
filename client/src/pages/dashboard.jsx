@@ -1,5 +1,5 @@
-import Button from "../components/button";
-import Card from "../components/card";
+import Button from "../components/ui/button";
+import Card from "../components/ui/card";
 import DataCenterMap from "../components/data-center-map";
 import NavDashboard from "../components/nav-dashboard";
 import SideBar from "../components/sidebar";
@@ -35,8 +35,8 @@ export default function Dashboard(){
                                         <p>Avg. 142 successful deploys / week</p>
                                     </div>
                                     <div className="flex flex-row gap-7">
-                                        <Button>Week</Button>
-                                        <Button>Month</Button>
+                                        <Button className="btn-primary">Week</Button>
+                                        <Button className="btn-primary">Month</Button>
                                     </div>
                                 </div>
                             </Card>
