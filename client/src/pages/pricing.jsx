@@ -2,7 +2,7 @@ import Button from "../components/button"
 export default function Pricing(){
     return(
         <>
-            <div>
+            <div className="pt-20 min-h-screen">
                 <section className="sections">
                     <div className="flex flex-col justify-center gap-4 items-center text-center p-7">
 
@@ -21,8 +21,8 @@ export default function Pricing(){
                     </div>
                 </section>
 
-                <section className="flex flex-row gap-7 m-3 p-3 sections">
-                    <div className="flex flex-col p-3 bg-white rounded-2xl transition-transform hover:-translate-y-1">
+                <section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 sections">
+                    <div className="price-cards">
                         <div className="mb-3">
                             <div className="card-icons mb-3">
                                 <img src="../starter.png" alt="" />
@@ -55,7 +55,7 @@ export default function Pricing(){
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-2xl p-3 transition-transform hover:-translate-y-1">
+                    <div className="price-cards">
                         <div className="mb-3">
                             <div className="card-icons mb-3">
                                 <img src="../team.png" alt="" />
@@ -92,7 +92,7 @@ export default function Pricing(){
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-2xl p-3 transition-transform hover:-translate-y-1">
+                    <div className="price-cards">
                         <div className="mb-3">
                             <div className="card-icons mb-3">
                                 <img src="../enterprise.png" alt="" />
@@ -131,74 +131,90 @@ export default function Pricing(){
                 </section>
 
                 <section className="sections">
-                    <div className="flex flex-col gap-2 items-center">
-                        <h2>Technical Feature Comparison</h2>
-                        <p>A deep dive into our architectural capabilities.</p>
-
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>CORE ARCHITECTURE</th>
-                                    <th>STARTER</th>
-                                    <th>TEAM</th>
-                                    <th>ENTERPRISE</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Compute Nodes</td>
-                                    <td>Shared(Free-use)</td>
-                                    <td>Burstable(Dedicated)</td>
-                                    <td>Fixed Dedicated</td>
-                                </tr>
-                                <tr>
-                                    <td>Memory Isolation</td>
-                                    <td>L3 Cache Partition</td>
-                                    <td>Hypervisor Enclave</td>
-                                    <td>Physical Isolation</td>
-                                </tr>
-                                <tr>
-                                    <td>Auto-scaling Latency</td>
-                                    <td>&lt; 300ms</td>
-                                    <td>&lt; 50ms</td>
-                                    <td>&lt; 10ms</td>
-                                </tr>
-                                <tr>
-                                    <td>Edge Functions</td>
-                                    <td>10 Regions</td>
-                                    <td>50+ Regions</td>
-                                    <td>Global Mesh</td>
-                                </tr>
-                                <tr>
-                                    <td>Api Rate Limiting</td>
-                                    <td>1000, req/min</td>
-                                    <td>10,000, req/min</td>
-                                    <td>Uncapped</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div className=" max-w-5xl mx-auto">
+                        <div className="text-center mb-12">
+                            <h2 className="text-[32px] font-semibold tracking-[-0.01em] text-[#0b1c30] mb-2">Technical Feature Comparison</h2>
+                            <p className="text-[16px] text-[#4a4455]">A deep dive into our architectural capabilities.</p>
+                        </div>
+                        
+                        <div className="overflow-x-auto rounded-4xl border border-[#d3e4fe]/30 bg-white shadow-[0_10px_40px_-10px_rgba(99,14,212,0.04)]">
+                            <table className="w-full text-left border-collapse">
+                                <thead>
+                                    <tr className="border-b border-[#d3e4fe]/20">
+                                        <th className="th">CORE ARCHITECTURE</th>
+                                        <th className="th">STARTER</th>
+                                        <th className="th bg-[#630ed4]/5">TEAM</th>
+                                        <th className="th">ENTERPRISE</th>
+                                    </tr>
+                                </thead>
+                                <tbody className="text-[14px]">
+                                    <tr>
+                                        <td>Compute Nodes</td>
+                                        <td>Shared(Free-use)</td>
+                                        <td className="bg-[#630ed4]/5">Burstable(Dedicated)</td>
+                                        <td>Fixed Dedicated</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Memory Isolation</td>
+                                        <td>L3 Cache Partition</td>
+                                        <td className="bg-[#630ed4]/5">Hypervisor Enclave</td>
+                                        <td>Physical Isolation</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Auto-scaling Latency</td>
+                                        <td>&lt; 300ms</td>
+                                        <td className="bg-[#630ed4]/5">&lt; 50ms</td>
+                                        <td>&lt; 10ms</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Edge Functions</td>
+                                        <td>10 Regions</td>
+                                        <td className="bg-[#630ed4]/5">50+ Regions</td>
+                                        <td>Global Mesh</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Api Rate Limiting</td>
+                                        <td>1000, req/min</td>
+                                        <td className="bg-[#630ed4]/5">10,000, req/min</td>
+                                        <td>Uncapped</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
                     </div>
                 </section>
-                <section className="sections">
-                    <div className="grid grid-cols-2 p-3 m-3 bg-[#1c1c2c] text-white rounded-4xl">
-                        <div className="flex flex-col gap-7 justify-center p-10">
-                            <h1>Ready to <br/> optimize your <br/><span className="text-[blueviolet]">cloud stack?</span></h1>
-                            <span>Join over 15,000 engineering teams building the future of distributed systems on Sysora.</span>
-                            <div className="flex flex-row gap-7">
-                                <Button>Start Free Trial</Button>
-                                <Button>Request Demo</Button>
+                {/* CTA Section */}
+                <section className="px-8 pb-32">
+                    <div className="max-w-7xl mx-auto rounded-[3rem] bg-[#213145] text-[#ede0ff] p-12 md:p-24 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-12">
+                        <div className="relative z-10 space-y-6 max-w-xl">
+                            <h2 className="text-[48px] leading-tight font-bold">
+                                Ready to optimize your <span className="text-[#d2bbff]">cloud stack?</span>
+                            </h2>
+                            <span className="text-[18px] opacity-80">
+                                Join over 15,000 engineering teams building the future of distributed systems on Sysora.
+                            </span>
+                            <div className="flex flex-wrap gap-4 pt-4">
+                                <button className="bg-[#630ed4] px-8 py-4 rounded-2xl font-bold text-[16px] hover:scale-105 transition-transform text-white">
+                                Start Free Trial
+                                </button>
+                                <button className="bg-white/10 backdrop-blur-md px-8 py-4 rounded-2xl font-bold text-[16px] border border-white/20 hover:bg-white/20 transition-all text-white">
+                                Request Demo
+                                </button>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-center p-10">
-                            <div className="flex flex-col p-3 gap-7 justify-center bg-[#2c2c38] rounded-2xl">
-                                <div className="flex flex-row gap-5">
+                        <div className="relative z-10 w-full md:w-auto">
+                            <div className="bg-white/5 backdrop-blur-xl p-8 rounded-4xl border border-white/10 space-y-6">
+                                <div className="flex items-center gap-4">
                                     <img className="profile" src="../cto-NexusFlow.jpg" alt="" />
-                                    <div className="flex flex-col">
-                                        <span>Sarah Tan</span>
-                                        <span>CTO at NexusFlow</span>
+                                    <div>
+                                        <div className="font-bold text-[16px]">Sarah Tan</div>
+                                        <div className="text-[14px] opacity-60">CTO at NexusFlow</div>
                                     </div>
                                 </div>
-                                <span>"Sysora's pricing transparency was the deciding factor. We migrated our entire microservices architecture in 3 weeks and reduced egress costs by 40%."</span>
+                                <span className="text-[16px] italic leading-relaxed">
+                                "Sysora's pricing transparency was the deciding factor. We migrated our entire microservices architecture in 3 weeks and reduced egress costs by 40%."
+                                </span>
                             </div>
                         </div>
                     </div>
