@@ -69,6 +69,7 @@ h3{
   border-radius: 10px;
   padding: 0 20px;
   text-align: center;
+  cursor: pointer;
 }
 .security-btn{
   width: 100%;
