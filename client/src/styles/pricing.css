@@ -1,35 +1,64 @@
-@reference "tailwindcss";
+@import "tailwindcss";
 
-.price-selection{
-    background-color: rgb(200, 166, 233);
-    border-radius: 1rem;
-    width: 50px;
-    height: 23px;
-}
+/* 1. Global Base Tag Styles */
+@layer base {
+  h4 {
+    @apply font-bold text-[#0b1c30] mb-6;
+  } 
 
-table {
-  background-color: white;
-  margin-top: 1rem;
-  border-radius: 10px;
-  border-spacing: 0; 
-  overflow: hidden;
-}
-
-th, td {
-  padding: 15px;
-  text-align: left;
-  border: none;
-}
-
-tbody tr:hover {
-  background-color: rgb(212, 218, 223);
-  transition: background-color 0.15s ease; 
-}
-.sections{
-    padding-bottom: 40px;
-}
-@layer components {
-  .btn-primary {
-    @apply  px-6 py-2.5 rounded-xl text-[14px] transition-all active:scale-95 shadow-lg shadow-[#630ed4]/20;
+  nav {
+    @apply flex flex-col gap-4 text-[14px] text-[#4a4455];
   }
+
+  table {
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border-spacing: 0; 
+    overflow: hidden;
+  }
+
+  td {
+    padding: 24px;
+    text-align: left;
+    border: none;
+    color: #4a4455;
+  }
+
+  tbody tr:hover {
+    background-color: rgb(212, 218, 223);
+    transition: background-color 0.15s ease; 
+  }
+}
+
+/* 2. Custom Utility Classes (Tailwind v4 standard) */
+@utility btn-primary {
+  @apply px-6 py-2.5 rounded-xl text-[14px] transition-all active:scale-95 shadow-lg shadow-[#630ed4]/20;
+}
+
+@utility price-cards {
+  @apply bg-white rounded-[2rem] p-8 shadow-[0_10px_40px_-10px_rgba(99,14,212,0.04)] border border-[#d3e4fe]/20 flex flex-col transition-transform hover:-translate-y-1;
+}
+
+@utility th {
+  @apply p-6 text-[12px] text-[#4a4455] font-black uppercase tracking-widest;
+}
+@utility socials {
+  @apply w-10 h-10 rounded-full bg-[#e5eeff] flex items-center justify-center text-[#4a4455] hover:bg-[#630ed4] hover:text-white transition-all;
+}
+@utility social-images {
+    @apply material-symbols-outlined text-[20px];
+}
+
+/* 3. Regular Custom CSS Classes */
+.price-selection {
+  background-color: rgb(200, 166, 233);
+  border-radius: 1rem;
+  width: 50px;
+  height: 23px;
+}
+
+.sections {
+  padding-inline: 2rem;
+  padding-bottom: 8rem;
 }
